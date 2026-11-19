@@ -1,0 +1,15 @@
+services:
+  backend:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      PORT: "3000"
+      DB_FILE: /data/engapp.db
+      JWT_SECRET: ${JWT_SECRET:?Set JWT_SECRET in .env before starting}
+    volumes:
+      - engapp-data:/data
+    restart: unless-stopped
+
+volumes:
+  engapp-data:

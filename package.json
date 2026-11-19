@@ -1,0 +1,12 @@
+{
+  "name": "engapp-backend",
+  "version": "1.0.0",
+  "description": "Backend cho app hoc tieng Anh (auth, bai hoc, tien do, XP, streak)",
+  "main": "server.js",
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "license": "MIT"
+}
