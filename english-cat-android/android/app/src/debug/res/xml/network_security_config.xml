@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bản debug cho phép HTTP để kiểm thử với backend nội bộ / LAN -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
