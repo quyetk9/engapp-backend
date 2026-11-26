@@ -1,0 +1,14 @@
+{
+  "name": "english-cat-backend",
+  "version": "1.0.0",
+  "description": "Backend API độc lập cho ứng dụng học tiếng Anh English Cat",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node tests/api.test.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
