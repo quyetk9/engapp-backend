@@ -1,0 +1,85 @@
+{
+  "id": "greetings-1",
+  "title": "Hi và Hello",
+  "steps": [
+    {
+      "type": "lesson_intro",
+      "text_vi": "Cùng học cách chào hỏi bằng tiếng Anh."
+    },
+    {
+      "type": "word_card",
+      "vocab": "hi",
+      "note_vi": "Hi nghĩa là 'chào', cách chào thân mật."
+    },
+    {
+      "type": "mcq_text",
+      "question": "Hi",
+      "options": [
+        "chào",
+        "tạm biệt"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "word_card",
+      "vocab": "hello",
+      "note_vi": "Hello là cách chào phổ biến nhất, dùng được cả khi trang trọng lẫn thân mật."
+    },
+    {
+      "type": "explain",
+      "text_vi": "Cả hi và hello đều nghĩa là 'chào'. Hi gần gũi hơn, hello dùng được ở mọi tình huống."
+    },
+    {
+      "type": "true_false",
+      "statement": "Hello chỉ dùng được khi nói chuyện thân mật.",
+      "answer": false
+    },
+    {
+      "type": "word_card",
+      "vocab": "goodbye",
+      "note_vi": "Goodbye nghĩa là 'tạm biệt'."
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        [
+          "Hi",
+          "chào"
+        ],
+        [
+          "Hello",
+          "xin chào"
+        ],
+        [
+          "Goodbye",
+          "tạm biệt"
+        ]
+      ]
+    },
+    {
+      "type": "listening_mcq",
+      "audio_text": "Goodbye",
+      "vocab": "goodbye",
+      "options": [
+        "tạm biệt",
+        "chào"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "mcq_text",
+      "prompt": "Dịch câu này",
+      "question": "Goodbye, Nam!",
+      "options": [
+        "Tạm biệt, Nam!",
+        "Chào, Nam!"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "speaking",
+      "source": "Xin chào",
+      "target": "Hello"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "family-2",
+  "title": "Anh chị em",
+  "steps": [
+    {
+      "type": "lesson_intro",
+      "text_vi": "Cùng học cách nói về anh, chị, em."
+    },
+    {
+      "type": "word_card",
+      "vocab": "brother",
+      "note_vi": "Brother nghĩa là 'anh trai' hoặc 'em trai'."
+    },
+    {
+      "type": "word_card",
+      "vocab": "sister",
+      "note_vi": "Sister nghĩa là 'chị gái' hoặc 'em gái'."
+    },
+    {
+      "type": "mcq_text",
+      "question": "sister",
+      "options": [
+        "anh/em trai",
+        "chị/em gái"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        [
+          "brother",
+          "anh/em trai"
+        ],
+        [
+          "sister",
+          "chị/em gái"
+        ]
+      ]
+    },
+    {
+      "type": "true_false",
+      "statement": "Brother có thể là anh trai hoặc em trai.",
+      "answer": true
+    },
+    {
+      "type": "listening_mcq",
+      "audio_text": "brother",
+      "vocab": "brother",
+      "options": [
+        "anh/em trai",
+        "chị/em gái"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "word_order",
+      "source": "Chị tôi là Hoa.",
+      "tiles": [
+        "sister",
+        "My",
+        "is",
+        "brother"
+      ],
+      "answer": [
+        "My",
+        "sister",
+        "is"
+      ],
+      "suffix": "Hoa."
+    },
+    {
+      "type": "speaking",
+      "source": "Anh trai tôi",
+      "target": "My brother"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "greetings-2",
+  "title": "Tôi là…",
+  "vocab": [
+    "name",
+    "my"
+  ],
+  "steps": [
+    {
+      "type": "lesson_intro",
+      "text_vi": "Cùng học cách giới thiệu tên của mình."
+    },
+    {
+      "type": "grammar_note",
+      "title": "I am",
+      "text_vi": "I am nghĩa là 'tôi là'. Dùng để giới thiệu bản thân.",
+      "highlight": [
+        "I am"
+      ]
+    },
+    {
+      "type": "word_order",
+      "source": "Tôi là Lan.",
+      "tiles": [
+        "am",
+        "I"
+      ],
+      "answer": [
+        "I",
+        "am"
+      ],
+      "suffix": "Lan."
+    },
+    {
+      "type": "grammar_note",
+      "text_vi": "Tiếng Anh không bỏ đại từ chủ ngữ như tiếng Việt: nói 'I am Lan', không nói 'am Lan'.",
+      "highlight": [
+        "I am Lan"
+      ]
+    },
+    {
+      "type": "word_card",
+      "vocab": "my",
+      "note_vi": "My nghĩa là 'của tôi'."
+    },
+    {
+      "type": "word_card",
+      "vocab": "name",
+      "note_vi": "Name nghĩa là 'tên'."
+    },
+    {
+      "type": "mcq_text",
+      "question": "my name",
+      "options": [
+        "tên của tôi",
+        "tên của bạn"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill_blank",
+      "sentence": "My ___ is Lan.",
+      "tiles": [
+        "name",
+        "am"
+      ],
+      "answer": "name"
+    },
+    {
+      "type": "word_order",
+      "source": "Tên tôi là Lan.",
+      "tiles": [
+        "name",
+        "is",
+        "My",
+        "am"
+      ],
+      "answer": [
+        "My",
+        "name",
+        "is"
+      ],
+      "suffix": "Lan."
+    },
+    {
+      "type": "true_false",
+      "statement": "'I am Lan' nghĩa là 'Tôi là Lan'.",
+      "answer": true
+    },
+    {
+      "type": "speaking",
+      "source": "Tôi là Lan.",
+      "target": "I am Lan."
+    }
+  ]
+}

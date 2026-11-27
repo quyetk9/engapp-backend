@@ -1,0 +1,74 @@
+[
+  {
+    "id": "hi",
+    "word": "Hi",
+    "ipa": "/haɪ/",
+    "meaning_vi": "chào",
+    "example_en": "Hi, Nam!",
+    "example_vi": "Chào, Nam!"
+  },
+  {
+    "id": "hello",
+    "word": "Hello",
+    "ipa": "/həˈloʊ/",
+    "meaning_vi": "xin chào",
+    "example_en": "Hello, Ms. Lan.",
+    "example_vi": "Xin chào, cô Lan."
+  },
+  {
+    "id": "goodbye",
+    "word": "Goodbye",
+    "ipa": "/ɡʊdˈbaɪ/",
+    "meaning_vi": "tạm biệt",
+    "example_en": "Goodbye, see you soon!",
+    "example_vi": "Tạm biệt, hẹn sớm gặp lại!"
+  },
+  {
+    "id": "name",
+    "word": "name",
+    "ipa": "/neɪm/",
+    "meaning_vi": "tên",
+    "example_en": "My name is Lan.",
+    "example_vi": "Tên tôi là Lan."
+  },
+  {
+    "id": "my",
+    "word": "my",
+    "ipa": "/maɪ/",
+    "meaning_vi": "của tôi",
+    "example_en": "My name is Lan.",
+    "example_vi": "Tên tôi là Lan."
+  },
+  {
+    "id": "father",
+    "word": "father",
+    "ipa": "/ˈfɑːðər/",
+    "meaning_vi": "bố",
+    "example_en": "My father is Nam.",
+    "example_vi": "Bố tôi là Nam."
+  },
+  {
+    "id": "mother",
+    "word": "mother",
+    "ipa": "/ˈmʌðər/",
+    "meaning_vi": "mẹ",
+    "example_en": "My mother is Hoa.",
+    "example_vi": "Mẹ tôi là Hoa."
+  },
+  {
+    "id": "brother",
+    "word": "brother",
+    "ipa": "/ˈbrʌðər/",
+    "meaning_vi": "anh/em trai",
+    "example_en": "My brother is Minh.",
+    "example_vi": "Anh trai tôi là Minh."
+  },
+  {
+    "id": "sister",
+    "word": "sister",
+    "ipa": "/ˈsɪstər/",
+    "meaning_vi": "chị/em gái",
+    "example_en": "My sister is Mai.",
+    "example_vi": "Chị tôi là Mai."
+  }
+]

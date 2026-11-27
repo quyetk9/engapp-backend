@@ -1,0 +1,25 @@
+# Render Blueprint: New > Blueprint > chọn repo GitHub này
+databases:
+  - name: english-db
+    plan: free
+
+services:
+  - type: web
+    name: english-api
+    runtime: python
+    plan: free
+    autoDeploy: true          # push lên GitHub là Render tự build + deploy
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.3
+      - key: DATABASE_URL
+        fromDatabase:
+          name: english-db
+          property: connectionString
+      - key: SEED_ON_STARTUP    # mỗi lần khởi động nạp lại nội dung từ content/
+        value: "1"
+      - key: ADMIN_TOKEN        # đặt tay trong Dashboard, dùng cho /admin/league/rollover
+        sync: false

@@ -1,0 +1,88 @@
+{
+  "id": "family-1",
+  "title": "Bố và mẹ",
+  "steps": [
+    {
+      "type": "lesson_intro",
+      "text_vi": "Cùng học cách nói về bố và mẹ."
+    },
+    {
+      "type": "word_card",
+      "vocab": "father",
+      "note_vi": "Father nghĩa là 'bố'."
+    },
+    {
+      "type": "mcq_text",
+      "question": "father",
+      "options": [
+        "bố",
+        "mẹ"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "word_card",
+      "vocab": "mother",
+      "note_vi": "Mother nghĩa là 'mẹ'."
+    },
+    {
+      "type": "pronunciation_tip",
+      "ipa": "/ð/",
+      "text_vi": "Âm /ð/ trong father và mother: đặt đầu lưỡi giữa hai hàm răng, thổi hơi nhẹ và để dây thanh quản rung."
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        [
+          "father",
+          "bố"
+        ],
+        [
+          "mother",
+          "mẹ"
+        ]
+      ]
+    },
+    {
+      "type": "listening_mcq",
+      "audio_text": "mother",
+      "vocab": "mother",
+      "options": [
+        "mẹ",
+        "bố"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill_blank",
+      "sentence": "She is my ___.",
+      "tiles": [
+        "mother",
+        "father"
+      ],
+      "answer": "mother",
+      "hint": "She nghĩa là 'cô ấy'."
+    },
+    {
+      "type": "word_order",
+      "source": "Bố tôi là Nam.",
+      "tiles": [
+        "father",
+        "My",
+        "is",
+        "mother"
+      ],
+      "answer": [
+        "My",
+        "father",
+        "is"
+      ],
+      "suffix": "Nam."
+    },
+    {
+      "type": "speaking",
+      "source": "Mẹ tôi",
+      "target": "My mother"
+    }
+  ]
+}
